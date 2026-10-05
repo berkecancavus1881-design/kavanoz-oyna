@@ -6,4 +6,6 @@ Open the GitHub Pages URL for this repo to play on desktop or mobile (landscape)
 
 **Controls:** touch/mouse to paint; toolbar for tools; space cycles speed.
 
-First load downloads ~40 MB (WASM). Progress is saved in the browser (`localStorage` / IndexedDB via Godot `user://`). An empty save starts a fresh jar.
+Built from `berkecancavus1881-design/kavanoz` commit `8c71ff0`.
+
+First load downloads ~40 MB (WASM). Progress is saved in the browser (`user://` → IndexedDB). An empty save starts a fresh jar.
