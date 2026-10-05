@@ -1,12 +1,18 @@
-# Kavanoz (play in browser)
+# Kavanoz — play in the browser
 
-Pocket terrarium sandbox — Godot 4.7.2 web build (single-threaded).
+Godot **4.7.2** web export (single-threaded, no SharedArrayBuffer / COOP-COEP required).
 
-**Play:** use the GitHub Pages URL if available, or:
-https://raw.githack.com/berkecancavus1881-design/kavanoz-oyna/main/index.html
+## Play
 
-Built from `berkecancavus1881-design/kavanoz` @ `3de7bb5`.
+- **GitHub Pages (intended):** https://berkecancavus1881-design.github.io/kavanoz-oyna/
+- **User Pages mirror:** https://berkecancavus1881-design.github.io/
+- If Pages is still building/failing, open the files from this repo via any static host, or use a local server (`python3 -m http.server`) in this folder.
 
-Desktop and mobile (landscape). Touch/mouse to paint; toolbar for tools; space cycles speed.
+Built from private source `berkecancavus1881-design/kavanoz` commit **3de7bb5**.
 
-First load ~40 MB (WASM). Empty browser storage starts a fresh jar; progress saves via Godot `user://` (IndexedDB).
+## Notes
+
+- Desktop + mobile landscape. Touch maps to mouse (`emulate_mouse_from_touch`).
+- First load downloads ~40 MB (`index.wasm`).
+- Empty browser storage → fresh jar; progress saves in Godot `user://` (IndexedDB).
+- iOS Safari: allow storage; add to Home Screen optional; very old iOS may lack WebGL2.
