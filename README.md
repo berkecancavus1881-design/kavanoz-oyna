@@ -1,11 +1,12 @@
 # Kavanoz (play in browser)
 
-Pocket terrarium sandbox — Godot 4.7.2 web build (single-threaded, GitHub Pages friendly).
+Pocket terrarium sandbox — Godot 4.7.2 web build (single-threaded).
 
-Open the GitHub Pages URL for this repo to play on desktop or mobile (landscape).
+**Play:** use the GitHub Pages URL if available, or:
+https://raw.githack.com/berkecancavus1881-design/kavanoz-oyna/main/index.html
 
-**Controls:** touch/mouse to paint; toolbar for tools; space cycles speed.
+Built from `berkecancavus1881-design/kavanoz` @ `3de7bb5`.
 
-Built from `berkecancavus1881-design/kavanoz` commit `8c71ff0`.
+Desktop and mobile (landscape). Touch/mouse to paint; toolbar for tools; space cycles speed.
 
-First load downloads ~40 MB (WASM). Progress is saved in the browser (`user://` → IndexedDB). An empty save starts a fresh jar.
+First load ~40 MB (WASM). Empty browser storage starts a fresh jar; progress saves via Godot `user://` (IndexedDB).
